@@ -1,0 +1,89 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+body{
+  -webkit-app-region: drag;
+  -webkit-user-select: none;"
+}
+
+.maindiv{
+  height: 100;
+  width:300;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 40px;
+  overflow: hidden;
+  padding: 10px;
+  font-family: Segoe UI;
+}
+
+.maindiv #banner {
+    float: left;
+    border-radius: 50%;
+    border: 3px solid #1DB954;
+    width: 95px;
+    height: 95px;
+}
+
+
+#content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 60px;
+}
+
+.maindiv h3{
+  padding:10px;
+  padding-bottom:0px;
+  padding-left: 130px;
+  display: block;
+  margin: 2px 0 0 0;
+  margin-bottom:2px;
+  font-size: 14w;
+}
+
+.maindiv h4{
+  font-size: 10px;
+  padding-left: 130px;
+  display: block;
+  margin: 2px 0 0 0;
+}
+
+
+progress{
+  width: 220px;
+  height:6px;
+  border: 0;
+  border-radius: 20px;
+  margin-left:130px;
+  margin-top: 20px;
+  display: block;
+  background: white;
+}
+
+progress::-webkit-progress-value {
+  background: #1DB954;
+  border: 0;
+  border-radius: 20px;
+}
+
+progress::-webkit-progress-bar {
+  background: white;
+  border: 0;
+  border-radius: 20px;
+}
+
+#close {
+    width:70px;
+    height:70px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-top:5px;
+}
