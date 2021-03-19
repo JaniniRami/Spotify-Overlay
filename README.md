@@ -29,6 +29,7 @@ Cross platform Spottily music overlay app build with Electron and Flask.
    - ```SPOTIFY_CLIENT_SECRET``` (containing your spotify secret key.)
  5) Run spotify-overlay:<br>
  ```npm start```
+ 6) You can run ```npm run make```, to generate an exe file of spotify-overlay.
  
  # To-do
  * Add custom close button.
