@@ -51,7 +51,7 @@ setInterval(function(){$.getJSON('http://localhost:7777/update', function(song_d
               // get song artists
               for (var i=0; i < song_data.item.artists.length; i++)
               {
-                var artists = String(artists + ", "+ song_data.item.artists[i].name);
+                var artists = String(artists + ", "+ song_data.item.artists[i].name + ".");
               }
               artists = artists.substring(artists.indexOf(" ") + 1);
               document.getElementById('artists').innerHTML = artists;
