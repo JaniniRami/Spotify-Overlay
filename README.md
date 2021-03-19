@@ -29,6 +29,9 @@ Cross platform Spottily music overlay app build with Electron and Flask.
    - ```SPOTIFY_CLIENT_SECRET``` (containing your spotify secret key.)
  5) Run spotify-overlay:<br>
  ```npm start```
+
+# Convert spotify-overlay to an exe app
+- You can convert spotify-overlay to an exe app simple by running this command:```npm run make```
  
  # To-do
  * Add custom close button.
