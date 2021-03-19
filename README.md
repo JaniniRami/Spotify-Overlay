@@ -17,13 +17,13 @@ Cross platform Spottily music overlay app build with Electron and Flask.
 ```python3 -m pip install -r requirements.txt```
 - Making a spotify app:<br>
 1) Head to https://developer.spotify.com/dashboard and log in with your spotify account.
-2) Create new app:<br>
+2) Create a new app:<br>
 ![Create spotify app.](https://github.com/JaniniRami/Spotify-Overlay/blob/main/imgs/1.png?raw=true)
 3) Click on edit settings and add ```http://localhost:8080/```  as a redirect URL:<br>
 ![Create spotify app.](https://github.com/JaniniRami/Spotify-Overlay/blob/main/imgs/2.png?raw=true)
-4) Save the new settings then add the client ID and Secret to your enviroment variables:<br>
+4) Save the new settings then add the client ID and secret to your environment variables:<br>
 ![Create spotify app.](https://github.com/JaniniRami/Spotify-Overlay/blob/main/imgs/3.png?raw=true)
- - ```Control Panel --> System and Security --> System --> Advanced system settings --> enviroment variables```
+ - ```Control Panel --> System and Security --> System --> Advanced system settings --> environment variables```
  - Under system variables add two new variables:
    - ```SPOTIFY_CLIENT_ID``` (containing your spotify client id.)
    - ```SPOTIFY_CLIENT_SECRET``` (containing your spotify secret key.)
