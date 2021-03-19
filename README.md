@@ -9,7 +9,7 @@ Cross platform Spottily music overlay app build with Electron and Flask.
 * Electron.js
 
 # Installation and Setup
-- Donwloading spotify-overlay:<br>
+- Downloading spotify-overlay:<br>
 ```git clone https://github.com/JaniniRami/Spotify-Overlay```
 - Downloading npm packages:<br>
 ```npm install```
