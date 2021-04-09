@@ -1,5 +1,5 @@
 # Spotify Music Overlay
-Cross platform Spottily music overlay app build with Electron and Flask.
+Cross platform Spotify  music overlay app build with Electron and Flask.
 
 ![Spotify-Overlay Design.](https://github.com/JaniniRami/Spotify-Overlay/blob/main/Design%20Files/design.png?raw=true)
 
